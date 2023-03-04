@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="143dp"
+        android:layout_height="55dp"
+        android:text="Search"
+        app:icon="@android:drawable/ic_menu_search"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="209dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="VCXVX"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="78dp"
+        android:layout_height="50dp"
+        android:text="Dogs"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="154dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="97dp"
+        android:layout_height="54dp"
+        android:text="Parates"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="156dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="78dp"
+        android:layout_height="53dp"
+        android:text="Cats"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="223dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="95dp"
+        android:layout_height="50dp"
+        android:text="Ninjas"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="224dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="63dp"
+        android:layout_height="36dp"
+        android:text="Toggles"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="307dp" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="78dp"
+        android:layout_height="36dp"
+        android:text="On"
+        android:textOff="ON"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="307dp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="48dp"
+        android:layout_height="34dp"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="308dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar2"
+        android:layout_width="340dp"
+        android:layout_height="36dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="417dp" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="175dp"
+        android:layout_height="30dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="364dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
