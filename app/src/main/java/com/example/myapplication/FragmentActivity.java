@@ -1,7 +1,6 @@
 package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -13,8 +12,8 @@ public class FragmentActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fragment);
 
-        Button firstFragment = (Button) findViewById(R.id.firstFragment);
-        Button secondFragment = (Button) findViewById(R.id.secondFragment);
+        Button FragmentA = (Button) findViewById(R.id.firstFragment);
+        Button FragmentB = (Button) findViewById(R.id.secondFragment);
 
         FragmentA.setOnClickListener(new View.OnClickListener());
             @Override
@@ -43,4 +42,3 @@ public class FragmentActivity extends AppCompatActivity {
         }
      }
 
-        }

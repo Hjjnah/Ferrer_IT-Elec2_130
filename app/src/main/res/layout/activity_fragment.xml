@@ -8,23 +8,36 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="177dp"
-        android:layout_height="70dp"
+        android:layout_width="404dp"
+        android:layout_height="72dp"
         android:text="Fragment A"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.818"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.151" />
+        app:layout_constraintVertical_bias="0.085" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="175dp"
-        android:layout_height="78dp"
+        android:layout_width="405dp"
+        android:layout_height="72dp"
         android:text="Fragment B"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.35" />
+        app:layout_constraintVertical_bias="0.246" />
+
+    <FrameLayout
+        android:layout_width="412dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
